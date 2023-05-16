@@ -1,0 +1,27 @@
+#ocean {
+    position: relative;
+    overflow: hidden;
+}
+
+#water {
+    height: 300px;
+    width: 120rem;
+    translate: -400px -100px;
+}
+
+#body-water {
+    background-color: #0099ff;
+    height: 500px;
+    width: 100%;
+    translate: 0px -100px
+}
+
+.header-sway {
+    background-color: lightgray;
+    height: 300px;
+    translate: 0px 150px;
+}
+
+.block {
+    
+}

@@ -1,40 +1,29 @@
-var velX = 0;
-var posX = 0;
-var accX = 0;
 
-var velY = 0;
-var posY = 0;
-var accY = 0;
+sway("main-header", 0.005, 0.001, 1, 5, 1)
+sway("water", 0.0025, 0.001, 2, 0, 0)
+sway("experiences", 0.001, 0.003, 1, 2, 5)
 
-$("#floating1").css({"background-color": `lightgrey`, "height": "300px"})
+function sway(tag, speedX, speedY, ampX, ampY, degree) {
+    var velX = 0;
+    var posX = 0;
+    var accX = 0;
+    var velY = 0;
+    var posY = 0;
+    var accY = 0;
 
-var floatWater = setInterval(() => {
-    accX += .005
-    velX =+ 10 * Math.sin(accX);
-    posX =+ velX
+    var floatHeader = setInterval(() => {
+        accX += speedX;
+        velX =+ ampX * Math.sin(accX);
+        posX =+ velX;
 
-    accY += .01
-    velY =+ 10 * Math.sin(accY);
-    posY =+ velY
-    $("#floating").css("transform", `translate(${posX}px, ${posY + 450}px)`)
-}, 1)
+        accY += speedY;
+        velY =+ ampY * Math.sin(accY);
+        posY =+ velY;
 
-var velX1 = 0;
-var posX1 = 0;
-var accX1 = 0;
+        $(`#${tag}`).css("transform", `translate(${posX}rem, ${posY}px) rotate(${posX * degree}deg)`)
+    }, 1)
+}
 
-var velY1 = 0;
-var posY1 = 0;
-var accY1 = 0;
 
-var floatHeader = setInterval(() => {
-    accX1 += .01
-    velX1 =+ 10 * Math.sin(accX1);
-    posX1 =+ velX
 
-    accY1 += .001
-    velY1 =+ 10 * Math.sin(accY1);
-    posY1 =+ velY1
 
-    $("#floating1").css("transform", `translate(${posX1}px, ${posY1 + 600}px) rotate(${posX1 * .1}deg)`)
-}, 1)
