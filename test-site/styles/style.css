@@ -13,13 +13,17 @@
     background-color: #0099ff;
     height: 500px;
     width: 100%;
-    translate: 0px -100px
+    translate: 10% -100px
 }
 
 .header-sway {
-    background-color: lightgray;
+    background-color: rgb(250, 250, 250);
     height: 300px;
-    translate: 0px 150px;
+    translate: 100rem -50px;
+}
+
+#line {
+    color: white;
 }
 
 .block {
