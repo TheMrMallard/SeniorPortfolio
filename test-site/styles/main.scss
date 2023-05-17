@@ -20,7 +20,6 @@
     }
 
     #main-header {
-        background-color: rgb(216, 216, 216);
         height: 40vh;
         transform: translate(0px, 0px);
         z-index: 0;
@@ -31,3 +30,18 @@
         border-radius: 5px;
     }
 }
+
+.parallax {
+    /* The image used */
+    background-image: url("/test-site/images/136.jpg");
+    opacity: 0.5;
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
