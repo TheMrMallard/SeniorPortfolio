@@ -1,4 +1,33 @@
 // import bootstrap
-
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+#ocean {
+    position: relative;
+    overflow: hidden;
+
+    #main-header {
+        background-color: rgb(223, 223, 223);
+        height: 300px;
+        transform: translate(0%, 50px);
+        z-index: 2; // Updated z-index value
+    }
+
+    #water {
+        height: 300px;
+        width: 120rem;
+        transform: translate(-400px, -100px);
+        z-index: 2;
+    }
+    
+    #body-water {
+        background-color: #0099ff;
+        height: 500px;
+        width: 100%;
+        z-index: 2;
+    }
+    
+    #line {
+        color: white;
+    }
+}
 
