@@ -1,46 +1,90 @@
 // import bootstrap
+$primary: #dbceb2;
+
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
+@mixin setSize($width, $height) {
+}
+
 @mixin setPosition($xValue, $yValue) {}
+
+@mixin donutTemplate() {
+    z-index: -1;
+    opacity: .1;
+    position: absolute;
+    width: 600px;
+    height: 600px;
+}
+
+@mixin bodyBackground() {
+    
+}
 
 #ocean {
     position: relative;
     overflow: hidden;
+    z-index: 0;
 
+    object {
+        z-index: 2;
+    }
+    
     #water {
-        z-index: 1;
+        z-index: 2;
     }
 
-    #body-water {
-        background-color: #0099ff;
-        height: 100vh;
+    .body-water {
+        background-color: #612a00;
+        height: 80vh;
         width: 100%;
-        z-index: 1;
+        z-index: 2;
     }
 
     #main-header {
+        z-index: 3;
         height: 40vh;
         transform: translate(0px, 0px);
-        z-index: 0;
     }
 
     #line {
         color: rgb(0, 0, 0);
         border-radius: 5px;
     }
+
+    #donut1 {
+        @include donutTemplate();
+        top: 15%;
+        left: 25%;
+    }
+
+    #donut2 {
+        @include donutTemplate();
+        top: 40%;
+        left: -15%;
+    }
+
+    .carousel {
+        z-index: 3;
+
+        img {
+            opacity: 0.25;
+        }
+
+    }
 }
 
+// Testing
 .parallax {
     /* The image used */
-    background-image: url("/test-site/images/136.jpg");
-    opacity: 0.5;
-  
+    background-image: url("/test-site/images/wallpaper.jpg");
+    background-color: pink;
+
     /* Set a specific height */
     min-height: 500px;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
-  }
+}

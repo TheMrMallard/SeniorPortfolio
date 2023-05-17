@@ -6,6 +6,7 @@ sway("experiences", 0.001, 0.0015, -1, 2, 5)
 sway("experiences-list", 0.002, 0.001, -1, 2, 1)
 sway("line", 0.002, 0.0011, -1, 2, 1)
 sway("my-skills", 0.001, 0.001, 1, 0, 1)
+sway("first-project", 0.002, 0.001, 1, 0, 1)
 
 function sway(name, speedX, speedY, ampX, ampY, degree, isClass) {
     var velX = 0;
