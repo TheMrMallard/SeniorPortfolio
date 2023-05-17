@@ -2,3 +2,32 @@
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
+@mixin setPosition($xValue, $yValue) {}
+
+#ocean {
+    position: relative;
+    overflow: hidden;
+
+    #water {
+        z-index: 1;
+    }
+
+    #body-water {
+        background-color: #0099ff;
+        height: 100vh;
+        width: 100%;
+        z-index: 1;
+    }
+
+    #main-header {
+        background-color: rgb(216, 216, 216);
+        height: 40vh;
+        transform: translate(0px, 0px);
+        z-index: 0;
+    }
+
+    #line {
+        color: rgb(0, 0, 0);
+        border-radius: 5px;
+    }
+}

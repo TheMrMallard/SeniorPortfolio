@@ -1,50 +1,76 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
-        
-        <link rel="stylesheet" type="text/css" href="/test-site/styles/style.css"/>
-    </head>
-    <body>
-        <div id="ocean">
-            <header id="main-header" class="p-4 container-fluid header-sway">
-                    <h1 class="">Hello!</h1>
-                    <p>My name is John Amiel Vergara! I am inspired by creating cool websites and I hope I can translate it into different companies!</p>
-            </header>
-            <section>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,256L48,240C96,224,192,192,288,192C384,192,480,224,576,234.7C672,245,768,235,864,213.3C960,192,1056,160,1152,160C1248,160,1344,192,1392,208L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>        <script src="/test-site/script/float-animation.js"></script>
-                <div id="body-water">
-                    <h1 id="achievements" class="text-center">Achievements</h1>
 
-                    <div id="achievements-list">
-                        <ul>
-                            <li>3rd place in States for BPA Website Design Team</li>
-                            <li>1st place in Regionals for BPA Website Design Team</li>
-                            <li>Summa Cum Laude Award</li>
-                            <li>Created a search algorithm for BPA website</li>
-                            <li>Multiple Highest Honors award in Northview (4.0+ GPA)</li>
-                        </ul>
-                    </div>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
 
-                    <hr id="line">
-                    
-                    <h1 id="experiences" class="text-center">Experiences</h1>
-                    <div id="experiences-list">
+    <link rel="stylesheet" type="text/css" href="/test-site/styles/main.css" />
+</head>
+
+<body>
+    <div id="ocean">
+        <header id="main-header" class="p-4 container-fluid">
+            <h1 class="display-1">Hello!</h1>
+            <p>My name is John Amiel Vergara! I am inspired by creating cool websites and I hope I can translate it into
+                different companies!</p>
+        </header>
+        <section>
+            <svg id="water" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#0099ff" fill-opacity="1"
+                    d="M0,256L48,240C96,224,192,192,288,192C384,192,480,224,576,234.7C672,245,768,235,864,213.3C960,192,1056,160,1152,160C1248,160,1344,192,1392,208L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+            <script src="/test-site/script/float-animation.js"></script>
+            <div id="body-water" class="p-8">
+                <h1 id="achievements" class="text-center display-1">Achievements</h1>
+
+                <div id="achievements-list">
+                    <ul>
+                        <li>3rd place in States for BPA Website Design Team</li>
+                        <li>1st place in Regionals for BPA Website Design Team</li>
+                        <li>Summa Cum Laude Award</li>
+                        <li>Created a search algorithm for BPA website</li>
+                        <li>Multiple Highest Honors award in Northview (4.0+ GPA)</li>
+                    </ul>
+                </div>
+
+                <hr id="line">
+
+                <h1 id="experiences" class="text-center display-1">Experiences</h1>
+                <div id="experiences-list">
+                    <ul>
+                        <li>Honors Programming Career Tech</li>
+                        <li>Experience in:</li>
                         <ul>
-                            <li>Honors Programming Career Tech</li>
-                            <li>Experience in PHP, SASS, Bootstrap</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Lua</li>
+                            <li>PHP</li>
+                            <li>SASS</li>
+                            <li>Bootstrap</li>
                             <li>Java</li>
                             <li>Python</li>
+                            <li>React Native</li>
                         </ul>
-                    </div>
-
+                    </ul>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
 
-        
+        <section>
+            <h1>My Projects</h1>
+        </section>
+    </div>
 
-    </body>
+
+
+</body>
+
 </html>
