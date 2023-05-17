@@ -7,25 +7,22 @@
     height: 300px;
     width: 120rem;
     translate: -400px -100px;
+    z-index: 0;
 }
 
 #body-water {
     background-color: #0099ff;
     height: 500px;
     width: 100%;
-    translate: 10% -100px
 }
 
 .header-sway {
     background-color: rgb(250, 250, 250);
     height: 300px;
-    translate: 100rem -50px;
+    translate: 0% 50px;
+    z-index: 0;
 }
 
 #line {
     color: white;
-}
-
-.block {
-    
 }

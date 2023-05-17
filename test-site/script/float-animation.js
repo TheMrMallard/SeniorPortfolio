@@ -1,6 +1,5 @@
 
 sway("main-header", 0.005, 0.001, 1, 5, 1)
-sway("water", 0.0025, 0.001, 2, 0, 0)
 sway("achievements", 0.001, 0.003, 1, 2, 5)
 sway("achievements-list", 0.002, 0.002, 1, 2, 1)
 sway("experiences", 0.001, 0.0015, -1, 2, 5)

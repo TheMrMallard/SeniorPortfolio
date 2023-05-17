@@ -1,0 +1,28 @@
+{
+  "name": "seniorportfolio",
+  "version": "1.0.0",
+  "description": "My senior portfolio for my final exam!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrMallarb/SeniorPortfolio.git"
+  },
+  "keywords": [
+    "senior",
+    "portfolio",
+    "website",
+    "design"
+  ],
+  "author": "John Amiel Vergara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrMallarb/SeniorPortfolio/issues"
+  },
+  "homepage": "https://github.com/MrMallarb/SeniorPortfolio#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
