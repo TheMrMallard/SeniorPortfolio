@@ -10823,14 +10823,6 @@ textarea.form-control-lg {
   overflow: hidden;
   z-index: 0;
 }
-#ocean iframe {
-  display: block;
-  margin: 0 auto;
-  z-index: 2;
-  background-color: black;
-  width: 90%;
-  height: 500px;
-}
 #ocean #bio {
   display: block;
   margin: 0 auto;
@@ -10839,12 +10831,6 @@ textarea.form-control-lg {
   height: 75%;
 }
 #ocean #water {
-  z-index: 2;
-}
-#ocean .body-water {
-  background-color: #612a00;
-  height: 120vh;
-  width: 100%;
   z-index: 2;
 }
 #ocean #main-header {
@@ -10879,6 +10865,20 @@ textarea.form-control-lg {
 }
 #ocean .carousel img {
   opacity: 0.25;
+}
+#ocean .body-water {
+  background-color: #612a00;
+  height: 120vh;
+  width: 100%;
+  z-index: 2;
+}
+#ocean iframe {
+  display: block;
+  margin: 0 auto;
+  z-index: 2;
+  background-color: black;
+  width: 90%;
+  height: 500px;
 }
 
 .parallax {
