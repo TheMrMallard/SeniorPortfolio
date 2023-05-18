@@ -10826,8 +10826,10 @@ textarea.form-control-lg {
 #ocean iframe {
   z-index: 2;
   background-color: black;
-  width: 100%;
+  width: 90%;
   height: 500px;
+  display: block;
+  margin: 0 auto;
 }
 #ocean #water {
   z-index: 2;
