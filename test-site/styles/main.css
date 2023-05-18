@@ -10860,13 +10860,19 @@ textarea.form-control-lg {
   top: 60%;
   left: -15%;
 }
+#ocean #body-water2 {
+  background-color: #612a00;
+  height: 140vh;
+  width: 100%;
+  z-index: 2;
+}
 #ocean .carousel {
   z-index: 3;
 }
 #ocean .carousel img {
   opacity: 0.25;
 }
-#ocean .body-water {
+#ocean #body-water {
   background-color: #612a00;
   height: 120vh;
   width: 100%;

@@ -60,6 +60,13 @@ $primary: #dbceb2;
         left: -15%;
     }
 
+    #body-water2 {
+        background-color: #612a00;
+        height: 140vh;
+        width: 100%;
+        z-index: 2;
+    }
+
     .carousel {
         z-index: 3;
 
@@ -69,13 +76,13 @@ $primary: #dbceb2;
 
     }
 
-    .body-water {
+    #body-water {
         background-color: #612a00;
         height: 120vh;
         width: 100%;
         z-index: 2;
     }
-    
+
     iframe {
         @include center;
         z-index: 2;
