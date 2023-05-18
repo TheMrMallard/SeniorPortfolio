@@ -4,95 +4,93 @@ $primary: #dbceb2;
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
 @mixin setSize($width, $height) {
-  width: $width;
-  height: $height;
 }
 
-@mixin setPosition($xValue, $yValue) {
-  position: absolute;
-  top: $yValue;
-  left: $xValue;
-}
+@mixin setPosition($xValue, $yValue) {}
 
 @mixin donutTemplate() {
-  z-index: -1;
-  opacity: .1;
-  position: absolute;
-  @include setSize(50%, 50%); // Adjust the percentage values as needed
+    z-index: -1;
+    opacity: .1;
+    position: absolute;
+    width: 600px;
+    height: 600px;
 }
 
-@mixin center {
-  display: block;
-  margin: 0 auto;
+@mixin center{
+    display: block;
+    margin: 0 auto;
 }
 
 #ocean {
-  position: relative;
-  overflow: hidden;
-  z-index: 0;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
 
-  #bio {
-    @include center;
-    z-index: -1;
-    @include setSize(25%, 75%); // Adjust the percentage values as needed
-  }
-
-  #water {
-    z-index: 2;
-  }
-
-  #main-header {
-    z-index: 3;
-    height: 40vh;
-    transform: translate(0px, 0px);
-  }
-
-  #line {
-    color: rgb(0, 0, 0);
-    border-radius: 5px;
-  }
-
-  #donut1 {
-    @include donutTemplate();
-    @include setPosition(25%, 15%); // Adjust the percentage values as needed
-  }
-
-  #donut2 {
-    @include donutTemplate();
-    @include setPosition(-15%, 60%); // Adjust the percentage values as needed
-  }
-
-  #body-water2 {
-    background-color: #612a00;
-    height: 140vh;
-    width: 100%;
-    z-index: 2;
-  }
-
-  .carousel {
-    z-index: 3;
-
-    img {
-      opacity: 0.25;
+    #bio {
+        @include center;
+        z-index: -1;
+        width: 25%;
+        height: 75%;
     }
-  }
 
-  #body-water {
-    background-color: #612a00;
-    height: 120vh;
-    width: 100%;
-    z-index: 2;
-  }
+    #water {
+        z-index: 2;
+    }
 
-  iframe {
-    @include center;
-    z-index: 2;
-    background-color: black;
-    width: 90%;
-    height: 50vh; // Adjust the percentage or viewport unit value as needed
-  }
+    #main-header {
+        z-index: 3;
+        height: 40vh;
+        transform: translate(0px, 0px);
+    }
+
+    #line {
+        color: rgb(0, 0, 0);
+        border-radius: 5px;
+    }
+
+    #donut1 {
+        @include donutTemplate();
+        top: 15%;
+        left: 25%;
+    }
+
+    #donut2 {
+        @include donutTemplate();
+        top: 60%;
+        left: -15%;
+    }
+
+    #body-water2 {
+        background-color: #612a00;
+        height: 140vh;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .carousel {
+        z-index: 3;
+
+        img {
+            opacity: 0.25;
+        }
+
+    }
+
+    #body-water {
+        background-color: #612a00;
+        height: 120vh;
+        width: 100%;
+        z-index: 2;
+    }
+
+    iframe {
+        @include center;
+        z-index: 2;
+        background-color: black;
+        width: 90%;
+        height: 500px;
+    }
 }
-
 
 // Testing
 .parallax {
