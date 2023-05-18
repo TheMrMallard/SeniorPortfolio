@@ -10846,8 +10846,9 @@ textarea.form-control-lg {
   z-index: -1;
   opacity: 0.1;
   position: absolute;
-  width: 600px;
-  height: 600px;
+  width: 50%;
+  height: 50%;
+  position: absolute;
   top: 15%;
   left: 25%;
 }
@@ -10855,8 +10856,9 @@ textarea.form-control-lg {
   z-index: -1;
   opacity: 0.1;
   position: absolute;
-  width: 600px;
-  height: 600px;
+  width: 50%;
+  height: 50%;
+  position: absolute;
   top: 60%;
   left: -15%;
 }
@@ -10884,7 +10886,7 @@ textarea.form-control-lg {
   z-index: 2;
   background-color: black;
   width: 90%;
-  height: 500px;
+  height: 50vh;
 }
 
 .parallax {
