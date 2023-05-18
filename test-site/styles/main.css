@@ -10834,7 +10834,7 @@ textarea.form-control-lg {
 }
 #ocean .body-water {
   background-color: #612a00;
-  height: 180vh;
+  height: 100vh;
   width: 100%;
   z-index: 2;
 }
