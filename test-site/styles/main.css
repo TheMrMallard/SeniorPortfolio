@@ -10835,8 +10835,8 @@ textarea.form-control-lg {
   display: block;
   margin: 0 auto;
   z-index: -1;
-  width: 50%;
-  height: 150%;
+  width: 25%;
+  height: 75%;
 }
 #ocean #water {
   z-index: 2;
