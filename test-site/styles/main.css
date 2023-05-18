@@ -10824,12 +10824,19 @@ textarea.form-control-lg {
   z-index: 0;
 }
 #ocean iframe {
+  display: block;
+  margin: 0 auto;
   z-index: 2;
   background-color: black;
   width: 90%;
   height: 500px;
+}
+#ocean #bio {
   display: block;
   margin: 0 auto;
+  z-index: -1;
+  width: 50%;
+  height: 150%;
 }
 #ocean #water {
   z-index: 2;
