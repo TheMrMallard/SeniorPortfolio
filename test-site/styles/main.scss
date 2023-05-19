@@ -1,5 +1,6 @@
 // import bootstrap
-$primary: #dbceb2;
+$primary: #612a00;
+$secondary: #dbceb2;
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
@@ -31,6 +32,9 @@ $primary: #dbceb2;
         z-index: -1;
         width: 25%;
         height: 75%;
+        border-style: ridge;
+        border-radius: 10px;
+        border-width: 5px;
     }
 
     #water {
@@ -39,14 +43,10 @@ $primary: #dbceb2;
 
     #main-header {
         z-index: 3;
-        height: 40vh;
         transform: translate(0px, 0px);
     }
 
-    #line {
-        color: rgb(0, 0, 0);
-        border-radius: 5px;
-    }
+
 
     #donut1 {
         @include donutTemplate();
@@ -60,25 +60,16 @@ $primary: #dbceb2;
         left: -15%;
     }
 
-    #body-water2 {
-        background-color: #612a00;
-        height: 140vh;
-        width: 100%;
-        z-index: 2;
-    }
-
     .carousel {
         z-index: 3;
-
         img {
             opacity: 0.25;
         }
 
     }
 
-    #body-water {
+    .body-water {
         background-color: #612a00;
-        height: 120vh;
         width: 100%;
         z-index: 2;
     }

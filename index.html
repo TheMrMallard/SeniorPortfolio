@@ -37,7 +37,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path
                         fill=" #612a00" fill-opacity="1"
                         d="M0,256L48,224C96,192,192,128,288,133.3C384,139,480,213,576,229.3C672,245,768,203,864,186.7C960,171,1056,181,1152,170.7C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-                <div id="body-water" class="p-8">
+                <div class="body-water" class="p-8">
                     <h1 id="achievements" class="text-center display-1">Achievements</h1>
                     <div id="achievements-list" class="m-4">
                         <ul>
@@ -89,12 +89,13 @@
                         <li>Leadership - determining members strengths and weaknesses and giving them appropriate roles</li>
                         <li>Collaborative - collaborated with other members when doing BPA competition for Website Design Team</li>
                         <li>Creative - this website basically</li>
-                        <li>Persistence - </li>
+                        <li>Persistence - making the BPA search algorithm was probably the hardest thing I've done, but I followed through and made it happen</li>
+                        <li>Resourceful</li>
                     </ul>
                 </div>
             </section>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#612a00" fill-opacity="1" d="M0,128L34.3,128C68.6,128,137,128,206,117.3C274.3,107,343,85,411,106.7C480,128,549,192,617,229.3C685.7,267,754,277,823,250.7C891.4,224,960,160,1029,122.7C1097.1,85,1166,75,1234,80C1302.9,85,1371,107,1406,117.3L1440,128L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
-            <section id="body-water2" class="body-water text-light p-4">
+            <section class="body-water text-light p-4">
                 <div id="first-project">
                     <h1 class="display-1 text-white text-center">Projects</h1>
                     <hr>
@@ -103,30 +104,42 @@
                             <button type="button" data-bs-target="#projectList" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#projectList" data-bs-slide-to="1" aria-label="Slide 2"></button>
                             <button type="button" data-bs-target="#projectList" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#projectList" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="/test-site/images/test.png" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-md-block">
                                     <h5>BPA Car Dealership Website</h5>
-                                    <a href="/test-site/car-dealership.html"><button class="btn btn-primary project-btn">Learn More</button></a>
+                                    <a href="/test-site/car-dealership.html"><button class="btn btn-secondary project-btn">Learn More</button></a>
                                     <p class="d-none d-md-block">One of my competition projects I'm proud of to work with a team.</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="/test-site/images/test.png" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-md-block">
-                                    <h5>Second slide label</h5>
-                                    <p class="d-none ">One of my competition projects I'm proud of to work with a team.</p>
+                                    <h5>Spaze's Mods Website</h5>
+                                    <a href="/test-site/spazes-mods.html"><button class="btn btn-secondary project-btn">Learn More</button></a>
+                                    <p class="d-none d-md-block">An earlier work I've done which I've combined mod making.</p>
                                 </div>
                           </div>
                           <div class="carousel-item">
                                 <img src="/test-site/images/test.png" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
-                                    <p>Some representative placeholder content for the third slide.</p>
+                                <div class="carousel-caption d-md-block">
+                                    <h5>First Minecraft Mod - Mallard Expansions</h5>
+                                    <a href="/test-site/mallard-expansions.html"><button class="btn btn-secondary project-btn">Learn More</button></a>
+                                    <p class="d-none d-md-block">An earlier work I've done which I've combined mod making.</p>
                                 </div>
                           </div>
+                          <div class="carousel-item">
+                            <img src="/test-site/images/test.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-md-block">
+                                <h5>Senior Portfolio</h5>
+                                <a href="/test-site/senior-portfolio.html" class="btn btn-secondary project-btn">Learn More</button></a>
+                                <p class="d-none d-md-block">Probably one of the best websites I've made so far.</p>
+                            </div>
+                      </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#projectList" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -140,8 +153,28 @@
                     <hr>
                 </div>
             </section>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#612a00" fill-opacity="1" d="M0,224L48,234.7C96,245,192,267,288,240C384,213,480,139,576,133.3C672,128,768,192,864,218.7C960,245,1056,235,1152,224C1248,213,1344,203,1392,197.3L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+            <section id="contact-us">
+                <h1 class="display-1 text-center">Other Information</h1>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="display-2">Contact Information</h3>
+                        <ul>
+                            <li>Email: vergarajohnamiel@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="display-2">References</h3>
+                        <ul>
+                            <li>Tammi Rammsey: 419-824-8570 ext 5224</li>
+                            <li>John Word: 419-824-8570 ext 5145 </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </section>
         </div>
-
+        
 
     </body>
     <script src="/test-site/script/donut-spin.js"></script>

@@ -1,4 +1,4 @@
-
+sway("bio", 0.005, 0.001, 1, 5, 1)
 sway("main-header", 0.005, 0.001, 1, 5, 1)
 sway("achievements", 0.001, 0.003, 1, 2, 5)
 sway("achievements-list", 0.002, 0.002, 1, 2, 1)
@@ -7,6 +7,8 @@ sway("experiences-list", 0.002, 0.001, -1, 2, 1)
 sway("line", 0.002, 0.0011, -1, 2, 1)
 sway("my-skills", 0.001, 0.001, 1, 0, 1)
 sway("first-project", 0.002, 0.001, 1, 0, 1)
+sway("contact-us", 0.002, 0.001, 1, 0, 1)
+
 
 function sway(name, speedX, speedY, ampX, ampY, degree, isClass) {
     var velX = 0;
