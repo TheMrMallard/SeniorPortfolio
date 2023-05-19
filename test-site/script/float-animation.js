@@ -9,7 +9,6 @@ sway("my-skills", 0.001, 0.001, 1, 0, 1)
 sway("first-project", 0.002, 0.001, 1, 0, 1)
 sway("contact-us", 0.002, 0.001, 1, 0, 1)
 
-
 function sway(name, speedX, speedY, ampX, ampY, degree, isClass) {
     var velX = 0;
     var posX = 0;
